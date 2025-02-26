@@ -1,0 +1,500 @@
+/* contact styling */
+.sec-contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/wrk-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.sec-con{
+    height: 100vh;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.con{
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+.con1{
+    height: 27vh;
+    width: 60vw;
+}
+.con1 h1{
+    font-size: 8vw;
+    font-weight: 800;
+    line-height: 1.0;
+    text-align: left;
+    font-family: "Poppins", serif;
+    color: rgb(255, 255, 255);
+}
+/* Work Section */
+.first-work{
+    height: 180vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.eme-work{
+    height: 160vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.res-work{
+    height: 160vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 30px; */
+    
+}
+.eme-img{
+    background-image: url(../images/img6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 39vw;
+}
+.eme-dets{
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    gap: 25px;
+}
+
+.eme-dets span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 15vw;
+    font-family: "Lora", serif ;
+}
+.eme-d, .res-d{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.ed{
+    color: #000000;
+    font-size: 60px;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+.eme-det, .res-det{
+    line-height: 2rem;
+}
+.eme-det span{
+    color: rgb(212, 158, 11);
+    font-size: 19px;
+    border: none;
+}
+
+.res-img{
+    background-image: url(../images/p-img2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 39vw;
+}
+.res-dets{
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    gap: 25px;
+}
+
+.res-dets span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 30vw;
+    font-family: "Lora", serif ;
+}
+.res-dets a{
+    color: #000000;
+}
+
+/* Work Section */
+.second-work{
+    height: 180vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.eng-work{
+    height: 150vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gra-work{
+    height: 150vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.eng-img{
+    background-image: url(../images/eng-1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 39vw;
+}
+.eng-dets{
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    gap: 25px;
+}
+
+.eng-dets span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 35.5vw;
+    font-family: "Lora", serif ;
+}
+.eng-d, .gra-d{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.ed{
+    color: #000000;
+    font-size: 60px;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+.eng-det, .gra-det{
+    line-height: 2rem;
+}
+
+.gra-img{
+    background-image: url(../images/gra-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 39vw;
+}
+.gra-dets{
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh;
+    gap: 23px;
+}
+
+.gra-dets span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 28vw;
+    font-family: "Lora", serif ;
+}
+
+
+
+@media (max-width: 425px ){
+
+    .con{
+        height: 90vh;
+        width: 80vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-end;
+    }
+    .con1{
+        height: 18vh;
+        width: 300px;
+    }
+
+    .con1 h1{
+        font-size: 13vw;
+        font-weight: 800;
+        line-height: 1.0;
+        text-align: left;
+        font-family: "Poppins", serif;
+        color: rgb(255, 255, 255);
+    } 
+
+
+    .first-work{
+        height: 335vh;
+        width: 420px;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .eme-work{
+        height: 160vh;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .eme-img{
+        background-image: url(../images/img6.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 60vh;
+        width: 380px;
+    }
+    .eme-dets{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 25px;
+    }
+    .eme-dets span{
+        color: #000000;
+        padding-bottom: 3px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 40vw;
+        font-family: "Lora", serif ;
+    }
+    .ed{
+        font-size: 50px;
+    }
+
+    .res-work{
+        height: 160vh;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .res-img{
+        background-image: url(../images/p-img2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 60vh;
+        width: 380px;
+    }
+    .res-dets{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 25px;
+    }
+    .res-dets span{
+        color: #000000;
+        padding-bottom: 3px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 73vw;
+        font-family: "Lora", serif ;
+    }
+    .ed{
+        font-size: 45px;
+    }
+    .eme-det, .res-det{
+        font-size: 14.5px;
+    }
+    .eme-det span{
+        color: rgb(212, 158, 11);
+        font-size: 16px;
+        border: none;
+    }
+
+    .second-work{
+        height: 320vh;
+        width: 420px;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .eng-work{
+        height: 140vh;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .eng-img{
+        background-image: url(../images/eng-1.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 60vh;
+        width: 380px;
+    }
+    .eng-dets{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        gap: 25px;
+    }
+    .eng-dets span{
+        color: #000000;
+        padding-bottom: 3px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 76vw;
+        font-family: "Lora", serif ;
+    }
+    .ed{
+        font-size: 45px;
+    }
+    .eng-dets span{
+        font-size: 40px;
+    }
+    .eme-det, .res-det, .eng-det, .gra-det{
+        font-size: 14.5px;
+        text-align: center;
+    }
+
+    .gra-work{
+        height: 160vh;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gra-img{
+        background-image: url(../images/gra-2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 60vh;
+        width: 380px;
+    }
+    .gra-dets{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        gap: 25px;
+    }
+    .gra-dets span{
+        color: #000000;
+        padding-bottom: 3px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 68vw;
+        font-family: "Lora", serif ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,1882 @@
+html, body {
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0; 
+}
+
+
+.nav-bar{
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    position: absolute;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    transition: background-color 0.5s ease;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50rem;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+}
+.brand{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: lowercase;
+    font-family: "Poppins", serif;
+}
+.nav-list a {
+    color: white; 
+    text-decoration: none;
+    transition: color 0.5s ease; 
+}
+
+
+.nav-bar.scrolled {
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+    0 6px 20px rgba(0,0,0,0.19);
+}
+.nav-bar.scrolled .nav-list a{
+    color: black !important; 
+}
+.nav-bar.scrolled .brand {
+    color: black !important; 
+}
+
+.sec-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(../images/bg-21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 204, 204);
+    font-family: "Lora", serif ;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 18ch; 
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ffffff;
+    }
+}
+
+.typing-container {
+    font-size: 5.2rem;
+    white-space: nowrap;
+    overflow: hidden; 
+    border-right: 3px solid #333; 
+    animation: typing 4s steps(12) forwards, blink-caret 0.7s step-end infinite; 
+}
+.sec-bg p{
+    font-size: 25px;
+    color:  rgba(212, 159, 11, 0.877);
+    height: 10vh;
+}
+
+
+.intro{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.intro-div{
+    width: 80vw;
+    height: 55vh;
+    display: flex;  
+}
+.intro-div-1{
+    width: 80vw;
+}
+.intro-div-2 h2{
+    font-size: 60px;
+    line-height: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro-design{
+    background-color: rgba(212, 159, 11, 0.877);
+}
+.intro-div-2 p{
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+
+.skills{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-div{
+    height: 70vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.skills-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+
+}
+.skills-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    background-color: black;
+    color: white;
+}
+.skills-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+.skills-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    background-color:  rgb(212, 159, 11);
+}
+.skills-div p{
+    line-height: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-div h2{
+    font-size: 35px;
+    line-height: 3rem;
+}
+.skill{
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.skill-img1, .skill-img2, .skill-img3, .skill-img4{
+    height: 90px;
+    width: 90px;
+}
+.skills-1:hover, .skills-3:hover{
+    background-color:  rgb(212, 159, 11);
+}
+
+
+.info{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-info{
+    height: 70vh;
+    width: 95vw;
+}
+.sec-info h2{
+    font-size: 14vw;
+    font-weight: 900;
+    line-height: 1.0;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Poppins", serif;
+    color: rgb(36, 36, 36);
+}
+.sec-info h2 span{
+    font-family: "Lora", serif;
+    font-weight: 400;
+    display: block;
+    text-align: right;
+    color:  rgba(212, 159, 11, 0.877);
+}
+
+.works-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works{
+    height: 100vh;
+    width: 85vw;
+    display:flex;
+    justify-content: center;
+}
+.works-div{
+    width: 82vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.wrk-img{
+    width: 36vw;
+    height: 90vh;
+    background-image: url(../images/img5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+    0 6px 20px rgba(0,0,0,0.19);
+
+}
+.wrk{
+    width: 46vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.wrk span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 28.5vw;
+    font-family: "Lora", serif ;
+}
+.wrk-1{
+    width: 42vw;
+    height: 40vh;
+    line-height: 3.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.webp{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.wrk-div{
+    width: 39vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.webp{
+    border: none;
+}
+.eme-des{
+    width: 39vw;
+    line-height: 1.5rem;
+    border: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.wrk-1:hover .eme-des {
+    
+    opacity: 1;
+
+}
+.h2a{
+    color: #000000;
+    font-size: 70px;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+
+.foot{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.foot-div{
+     height: 60vh;
+     width: 80vw;
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+}
+.foot-info{
+    height: 45vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+}
+.abt{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    gap: 40px;
+}
+
+.inf, .lnk, .quest{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+.abt1{
+    width: 18vw; 
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    line-height: 1.5rem;
+    height: 30vh;
+ }
+
+
+.inf1,.lnk1,.quest1{
+   width: 18vw; 
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   line-height: 1.5rem;
+   height: 30vh;
+}
+
+.foot-end{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}                                                      
+.fb, .yt, .tt{
+    color: white;
+}
+.icons{
+    display: flex;
+    align-items: left;
+    width: 18vw;
+}
+
+
+.works-sci{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.works-sci-1{
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.sci-1{
+    height: 40vh;
+    width: 35vw;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.sci{
+    width: 50vw;
+    height: 25vh;
+    line-height: 3.5rem;
+    position: relative;
+}
+.h2s{
+    color: #000000;
+    font-size: 70px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.resch{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.works-sci span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 28.5vw;
+    font-family: "Lora", serif ;
+}
+.sci-des{
+    width: 40vw;
+    line-height: 1.5rem;
+    border: none;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.sci-1:hover .sci-des {
+  
+    opacity: 1;
+
+}
+.background-image {
+    width: 65vw; 
+    height: 85vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('../images/p-img2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute; 
+    top: 0;
+    right: 0; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+    0 6px 20px rgba(0,0,0,0.19);
+}
+
+
+
+.works-eng{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.works-eng-1{
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.eng-1{
+    height: 40vh;
+    width: 35vw;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.eng{
+    width: 45vw;
+    height: 25vh;
+    line-height: 3.5rem;
+    position: relative;
+}
+.h2e{
+    color: #000000;
+    font-size: 70px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.engdes{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.works-eng span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 28.5vw;
+    font-family: "Lora", serif ;
+}
+.eng-des{
+    width: 40vw;
+    line-height: 1.5rem;
+    border: none;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.eng-1:hover .eng-des {
+    
+    opacity: 1;
+
+}
+.background-image-eng {
+    width: 60vw; 
+    height: 85vh; 
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../images/eng-1.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+    0 6px 20px rgba(0,0,0,0.19);
+}
+
+
+.works-gra{
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.works-gra-1{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.gra-1{
+    height: 40vh;
+    width: 35vw;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.gra{
+    width: 50vw;
+    height: 35vh;
+    line-height: 3.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.h2g{
+    color: #000000;
+    font-size: 70px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.gradgn{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.works-gra span{
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: solid #000000;
+    border-bottom-width: 3px;
+    width: 28.5vw;
+    font-family: "Lora", serif ;
+}
+.gra-des{
+    width: 40vw;
+   
+    
+    line-height: 1.5rem;
+    border: none;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.gra-1:hover .gra-des {
+    
+    opacity: 1;
+
+}
+.background-image-gra {
+    width: 65vw; 
+    height: 90vh; 
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../images/gra-1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute; 
+    top: 0;
+    right: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+    0 6px 20px rgba(0,0,0,0.19); 
+}
+.lnkf{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.aboutme{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);
+    
+}
+.abm{
+    width: 85vw;
+    height: 55vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.emp{
+    width: 30vw;
+    height: 50vh;
+}
+.goal{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.g1{
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.g1 h2 {
+    font-size: 70px;
+    font-family: "Poppins", serif;
+    color: white;
+}
+.g1 p{
+    font-size: 19px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutme-1{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.g1 span{
+    color: rgb(194, 144, 5);
+    font-size: 20px;
+}
+
+.sec-about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url(../images/bg-11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+@media (max-width:425px) {
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.5rem;
+    }
+    
+    .nav-list{
+        list-style-type: none;
+        display: flex;
+        gap: 1.5rem;
+    }
+    
+    .nav-link{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: "Poppins", serif;
+    }
+
+    .brand{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: lowercase;
+        font-family: "Poppins", serif;
+    }
+
+    .sec-bg{
+        background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(../images/bg-21-1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        color: rgb(206, 204, 204);
+        font-family: "Lora", serif ;
+    }
+
+    .typing-container {
+        font-size: 1.8rem;
+        white-space: nowrap;
+        overflow: hidden; 
+        border-right: 1px solid #333; 
+        animation: typing 4s steps(12) forwards, blink-caret 0.7s step-end infinite; 
+    }
+    .sec-bg p{
+        font-size: 15px;
+        color:  rgba(212, 159, 11, 0.877);
+        height: 5vh;
+    }
+    .intro-div-1{
+        display: none;
+    }
+
+    .intro-div-2 h2{
+        font-size: 35px;
+        line-height: 2.3rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .intro-design{
+        background-color: rgba(212, 159, 11, 0.877);
+    }
+    .intro-div-2 p{
+        font-size: 17px;
+        line-height: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .skills{
+        height: 200vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .skills-div{
+        height: 200vh;
+        width: 330px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       
+    }
+    .skills-1, .skills-2, .skills-3, .skills-4{
+        
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        padding: 10px;
+    
+    }
+    .skill{
+        width: 320px;
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+    }
+    .info{
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-info{
+        height: 25vh;
+        width: 95vw;
+    }
+
+    .works{
+        height: 100vh;
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .works-div{
+        width: 400px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .wrk-img{
+        width: 380px;
+        height: 120vh;
+        background-image: url(../images/img5.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    
+    }
+    .wrk{
+        width: 330px;
+        height: 90vh;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrk-1{
+        width: 300px;
+        height: 43vh;
+        line-height: 2.5rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrk span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 100px;
+        font-family: "Lora", serif ;
+    }
+    .wrk-div{
+        width: 250px;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h2a{
+        font-size: 60px;
+    }
+    .webp{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 1.5px;
+    }
+    .eme-des{
+        width: 310px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 22vh;
+    }
+
+    /* Polymer Science */
+    .background-image {
+        width: 380px;
+        height: 120vh;
+        position: relative;
+        background-image: url(../images/p-img2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    }
+    .works-sci{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .works-sci-1{
+        height: 100vh;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sci-1{
+        height: 40vh;
+        width: 365px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+    .sci{
+        width: 360px;
+        height: 22vh;
+        line-height: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 10px;
+    }
+    .h2s{
+        color: #000000;
+        font-size: 52px;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .resch{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 3px;
+    }
+    .sci-1 span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 50px;
+        font-family: "Lora", serif ;
+    }
+    .sci-des{
+        width: 330px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 20vh;
+    }
+
+    /* Solidworks */
+    .background-image-eng {
+        width: 380px;
+        height: 120vh;
+        position: relative;
+        background-image: url(../images/eng-1.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    }
+    .works-eng{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .works-eng-1{
+        height: 100vh;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .eng-1{
+        height: 40vh;
+        width: 365px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+    .eng{
+        width: 360px;
+        height: 22vh;
+        line-height: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 10px;
+    }
+    .h2e{
+        color: #000000;
+        font-size: 45px;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .engdes{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 3px;
+    }
+    .eng-1 span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 50px;
+        font-family: "Lora", serif ;
+    }
+    .eng-des{
+        width: 330px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 20vh;
+    }
+
+    /* Graphic Design */
+    .background-image-gra{
+        width: 380px;
+        height: 100vh;
+        position: relative;
+        background-image: url(../images/gra-1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    }
+    .works-gra{
+        height: 120vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .works-gra-1{
+        height: 100vh;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .gra-1{
+        height: 55vh;
+        width: 365px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+     
+    }
+    .gra{
+        width: 360px;
+        height: 22vh;
+        line-height: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .h2g{
+        color: #000000;
+        font-size: 42px;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .gradgn{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 3px;
+    }
+    .gra-1 span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 50px;
+        font-family: "Lora", serif ;
+    }
+    .gra-des{
+        width: 350px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 35vh;
+    }
+    
+    .foot{
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+
+    .foot-div{
+        height: 180vh;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+   }
+
+   .foot-info{
+    flex-direction: column;
+    height: 170vh;
+    width: 360px;
+    justify-content: space-evenly;
+   }
+   .abt{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+   
+    gap: 40px;
+}
+.icons{
+    flex-direction: column;
+}
+
+.inf, .lnk, .quest{
+    width: 340px;
+    display: flex;
+    justify-content: left;
+}
+.abt1{
+    width: 280px; ;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    line-height: 1.5rem;
+    height: 30vh;
+    text-align: left;
+ }
+ .inf1,.lnk1,.quest1{
+    width: 330px; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 0.7rem;
+    height: 30vh;
+ }
+
+ .foot h3{
+        font-size: 25px;
+        width: 330px;
+ }
+  
+ 
+ .aboutme{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);
+    
+}
+ .emp{
+    width: 0px;
+    height: 50vh;
+}
+.abm{
+    width: 400px;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goal{
+    width: 380vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g1{
+    height: 60vh;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.g1 h2 {
+    font-size: 45px;
+    font-family: "Poppins", serif;
+    color: white;
+}
+.g1 p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+}
+@media (max-width:430px) {
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.5rem;
+    }
+    
+    .nav-list{
+        list-style-type: none;
+        display: flex;
+        gap: 1.5rem;
+    }
+    
+    .nav-link{
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: "Poppins", serif;
+    }
+
+    .brand{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 23px;
+        text-transform: lowercase;
+        font-family: "Poppins", serif;
+    }
+
+    .sec-bg{
+        background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(../images/bg-21-1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        color: rgb(206, 204, 204);
+        font-family: "Lora", serif ;
+    }
+
+    .typing-container {
+        font-size: 2.4rem;
+        white-space: nowrap;
+        overflow: hidden; 
+        border-right: 1px solid #333; 
+        animation: typing 4s steps(12) forwards, blink-caret 0.7s step-end infinite; 
+    }
+    .sec-bg p{
+        font-size: 19px;
+        color:  rgba(212, 159, 11, 0.877);
+        height: 5vh;
+    }
+    .intro-div-1{
+        display: none;
+        height: 0;
+    }
+    .intro{
+        height: 45vh;
+    }
+    .intro-div{
+        height: 30vh;
+    }
+    .intro-div-2{
+        height: 30vh;
+        width: 400px;
+    }
+
+    .intro-div-2 h2{
+        font-size: 35px;
+        line-height: 2.3rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .intro-design{
+        background-color: rgba(212, 159, 11, 0.877);
+    }
+    .intro-div-2 p{
+        font-size: 17px;
+        line-height: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .skills{
+        height: 130vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .skills-div{
+        height: 130vh;
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       
+    }
+    .skills-1, .skills-2, .skills-3, .skills-4{
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        padding: 10px;
+    
+    }
+    .skill{
+        width: 320px;
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+    }
+    .info{
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-info{
+        height: 22vh;
+        width: 95vw;
+    }
+
+    .works{
+        height: 100vh;
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .works-div{
+        width: 400px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .wrk-img{
+        width: 380px;
+        height: 100vh;
+        background-image: url(../images/img5.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    
+    }
+    .wrk{
+        width: 330px;
+        height: 75vh;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrk-1{
+        width: 300px;
+        height: 33vh;
+        line-height: 2.5rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrk span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 100px;
+        font-family: "Lora", serif ;
+    }
+    .wrk-div{
+        width: 250px;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h2a{
+        font-size: 60px;
+    }
+    .webp{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 1.5px;
+    }
+    .eme-des{
+        width: 310px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 22vh;
+    }
+
+    /* Polymer Science */
+    .background-image {
+        width: 380px;
+        height: 120vh;
+        position: relative;
+        background-image: url(../images/p-img2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    }
+    .works-sci{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .works-sci-1{
+        height: 100vh;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sci-1{
+        height: 40vh;
+        width: 365px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+    .sci{
+        width: 360px;
+        height: 22vh;
+        line-height: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 10px;
+    }
+    .h2s{
+        color: #000000;
+        font-size: 52px;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .resch{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 3px;
+    }
+    .sci-1 span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 50px;
+        font-family: "Lora", serif ;
+    }
+    .sci-des{
+        width: 330px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 20vh;
+    }
+
+    /* Solidworks */
+    .background-image-eng {
+        width: 380px;
+        height: 120vh;
+        position: relative;
+        background-image: url(../images/eng-1.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    }
+    .works-eng{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .works-eng-1{
+        height: 100vh;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .eng-1{
+        height: 40vh;
+        width: 365px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+    .eng{
+        width: 360px;
+        height: 22vh;
+        line-height: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 10px;
+    }
+    .h2e{
+        color: #000000;
+        font-size: 45px;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .engdes{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 3px;
+    }
+    .eng-1 span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 50px;
+        font-family: "Lora", serif ;
+    }
+    .eng-des{
+        width: 330px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 20vh;
+    }
+
+    /* Graphic Design */
+    .background-image-gra{
+        width: 380px;
+        height: 100vh;
+        position: relative;
+        background-image: url(../images/gra-1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    }
+    .works-gra{
+        height: 120vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .works-gra-1{
+        height: 100vh;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .gra-1{
+        height: 55vh;
+        width: 365px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+     
+    }
+    .gra{
+        width: 360px;
+        height: 22vh;
+        line-height: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .h2g{
+        color: #000000;
+        font-size: 42px;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .gradgn{
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-weight: 200;
+        letter-spacing: 3px;
+    }
+    .gra-1 span{
+        color: #000000;
+        padding-bottom: 2px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 50px;
+        font-family: "Lora", serif ;
+    }
+    .gra-des{
+        width: 350px;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        text-align: center;
+        height: 35vh;
+    }
+    
+    .foot{
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+
+    .foot-div{
+        height: 180vh;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+   }
+
+   .foot-info{
+    flex-direction: column;
+    height: 170vh;
+    width: 360px;
+    justify-content: space-evenly;
+   }
+   .abt{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+   
+    gap: 40px;
+}
+.icons{
+    flex-direction: column;
+}
+
+.inf, .lnk, .quest{
+    width: 340px;
+    display: flex;
+    justify-content: left;
+}
+.abt1{
+    width: 280px; ;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    line-height: 1.5rem;
+    height: 30vh;
+    text-align: left;
+ }
+ .inf1,.lnk1,.quest1{
+    width: 330px; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 0.7rem;
+    height: 30vh;
+ }
+
+ .foot h3{
+        font-size: 25px;
+        width: 330px;
+ }
+  
+ 
+ .aboutme{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);
+    
+}
+ .emp{
+    width: 0px;
+    height: 50vh;
+}
+.abm{
+    width: 400px;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goal{
+    width: 380vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g1{
+    height: 60vh;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.g1 h2 {
+    font-size: 45px;
+    font-family: "Poppins", serif;
+    color: white;
+}
+.g1 p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
