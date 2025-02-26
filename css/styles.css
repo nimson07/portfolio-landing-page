@@ -713,7 +713,7 @@ html, body {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url(../images/bg-11.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     
 }
 
@@ -781,6 +781,11 @@ html, body {
     .intro-div-1{
         display: none;
     }
+    .intro-div-2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
     .intro-div-2 h2{
         font-size: 35px;
@@ -795,6 +800,12 @@ html, body {
         line-height: 2rem;
         font-family: 'Times New Roman', Times, serif;
     }
+    .intro{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
     
     .skills{
         height: 200vh;
@@ -1259,6 +1270,79 @@ html, body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
+
+}
+
+@media (min-width: 768px){
+  
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18rem;
+    }
+
+    .typing-container {
+        font-size: 4.2rem;
+        white-space: nowrap;
+        overflow: hidden; 
+        border-right: 3px solid #333; 
+        animation: typing 4s steps(12) forwards, blink-caret 0.7s step-end infinite; 
+    }
+
+    .sec-bg p{
+        font-size: 22px;
+        color:  rgba(212, 159, 11, 0.877);
+        height: 10vh;
+    }
+
+    .intro-div{
+        width: 690px;
+        height: 55vh;
+        display: flex;  
+    }
+
+    .intro-div-1{
+        display: none;
+    }
+    .intro-div-2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .skills{
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .skills-div{
+        height: 100vh;
+        width: 730px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+       
+    }
+    .skills-1, .skills-2, .skills-3, .skills-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    
+    }
+    .skill{
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
 
 
 
