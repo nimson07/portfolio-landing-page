@@ -1479,7 +1479,7 @@ html, body {
     /* Polymer Science */
     .background-image {
         width: 380px;
-        height: 120vh;
+        height: 100vh;
         position: relative;
         background-image: url(../images/p-img2.jpg);
         background-position: center;
@@ -1496,7 +1496,7 @@ html, body {
         
     }
     .works-sci-1{
-        height: 100vh;
+        height: 60vh;
         width: 380px;
         display: flex;
         justify-content: center;
@@ -1514,7 +1514,7 @@ html, body {
     }
     .sci{
         width: 360px;
-        height: 22vh;
+        height: 10vh;
         line-height: 3.5rem;
         display: flex;
         flex-direction: column;
@@ -1555,7 +1555,7 @@ html, body {
     /* Solidworks */
     .background-image-eng {
         width: 380px;
-        height: 120vh;
+        height: 100vh;
         position: relative;
         background-image: url(../images/eng-1.png);
         background-position: center;
@@ -1572,7 +1572,7 @@ html, body {
         
     }
     .works-eng-1{
-        height: 100vh;
+        height: 60vh;
         width: 380px;
         display: flex;
         justify-content: center;
@@ -1590,7 +1590,7 @@ html, body {
     }
     .eng{
         width: 360px;
-        height: 22vh;
+        height: 10vh;
         line-height: 3.5rem;
         display: flex;
         flex-direction: column;
@@ -1631,7 +1631,7 @@ html, body {
     /* Graphic Design */
     .background-image-gra{
         width: 380px;
-        height: 100vh;
+        height: 80vh;
         position: relative;
         background-image: url(../images/gra-1.jpg);
         background-position: center;
@@ -1648,7 +1648,7 @@ html, body {
         
     }
     .works-gra-1{
-        height: 100vh;
+        height: 50vh;
         width: 380px;
         display: flex;
         justify-content: center;
@@ -1656,18 +1656,18 @@ html, body {
     
     }
     .gra-1{
-        height: 55vh;
+        height: 40vh;
         width: 365px;
         display: flex;
         flex-direction:column ;
         justify-content: space-between;
         align-items: center;
-        gap: 0;
+        gap: 20px;
      
     }
     .gra{
         width: 360px;
-        height: 22vh;
+        height: 10vh;
         line-height: 3rem;
         display: flex;
         flex-direction: column;
@@ -1706,7 +1706,7 @@ html, body {
     }
     
     .foot{
-        height: 200vh;
+        height: 140vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1716,18 +1716,18 @@ html, body {
     }
 
     .foot-div{
-        height: 180vh;
+        height: 160vh;
         width: 380px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         gap: 40px;
    }
 
    .foot-info{
     flex-direction: column;
-    height: 170vh;
+    height: 90vh;
     width: 360px;
     justify-content: space-evenly;
    }
@@ -1763,7 +1763,7 @@ html, body {
     flex-direction: column;
     gap: 30px;
     line-height: 0.7rem;
-    height: 30vh;
+    height: 20vh;
  }
 
  .foot h3{
