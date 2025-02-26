@@ -1336,12 +1336,224 @@ html, body {
         width: 350px;
     
     }
+    .skills-3{
+        background-color:  rgb(212, 159, 11) ;
+    }
+    .skills-4{
+        background-color: white;
+    }
     .skill{
         width: 340px;
         display: flex;
         flex-direction: column;
         gap: 25px;
     }
+    .sec-info, .info{
+        height: 55vh;
+    }
+     
+    .works{
+        height: 100vh;
+        width: 700px;
+        display:flex;
+        justify-content: center;
+    }
+
+    .works-div{
+        width: 7000px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .wrk-1{
+        width: 42vw;
+        height: 50vh;
+        line-height: 3.5rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrk-div{
+        width: 39vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .wrk-img{
+        width: 350px;
+        height: 90vh;
+        background-image: url(../images/img5.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+        0 6px 20px rgba(0,0,0,0.19);
+    
+    }
+
+    .eme-des{
+        width: 39vw;
+        line-height: 1.5rem;
+        border: none;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+    .wrk span{
+        color: #000000;
+        padding-bottom: 3px;
+        border-bottom: solid #000000;
+        border-bottom-width: 3px;
+        width: 28.5vw;
+        font-family: "Lora", serif ;
+    }
+    .h2a{
+        color: #000000;
+        font-size: 55px;
+        text-decoration: none;
+        background-color: transparent;
+        
+    }
+
+    .foot-div{
+        height: 75vh;
+        width: 700px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+   }
+   .foot-info{
+    height: 55vh;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+   .abt1 p{
+    font-size: 15px;
+   }
+   .abt1{
+    height: 50vh;
+   }
+  .lnk1{
+    align-items: center;
+   }
+
+.works-sci-1{
+    height: 100vh;
+    width: 650px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.h2s{
+    font-size: 55px;
+}
+
+.background-image{
+    width: 450px;
+}
+.sci-des{
+    opacity: 1;
+    width: 250px;
+}
+.sci{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.works-eng{
+    width: 750px;
+}
+
+.works-eng-1{
+    height: 100vh;
+    width: 720px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.h2e{
+    font-size: 55px;
+}
+
+.background-image-eng{
+    width: 450px;
+}
+.eng-des{
+    opacity: 1;
+    width: 250px;
+}
+.eng{
+    height: 25vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eng-1{
+    height: 50vh;
+    justify-content: space-around;
+}
+
+
+.works-gra-1{
+    height: 100vh;
+    width: 650px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.h2g{
+    font-size: 55px;
+}
+
+.background-image-gra{
+    width: 450px;
+}
+.gra-des{
+    opacity: 1;
+    width: 250px;
+}
+.gra{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gra-1{
+    height: 60vh;
+}
+
+.emp{
+    display: none;
+}
+.goal{
+    width: 600px;
+}
+.g1{
+    width: 550px;
+    height: 50vh;
+    gap: 20px;
+}
+.g1 h2{
+    font-size: 45px;
+}
+
+
+
+
 
 
 
