@@ -1,0 +1,109 @@
+@media (max-width:425px) {
+     
+    .con{
+        height: 90vh;
+        width: 80vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-end;
+    }
+    .con1{
+        height: 18vh;
+        width: 300px;
+    }
+
+    .con1 h1{
+        font-size: 13vw;
+        font-weight: 800;
+        line-height: 1.0;
+        text-align: left;
+        font-family: "Poppins", serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .contact-info{
+        background-color: rgba(206, 166, 58, 0.877);
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .con-info{
+        width: 420px;
+        height: 70vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .address,.number, .email{
+        width: 350px;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .address h4,.number h4, .email h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    .address p,.number p, .email p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .form-name{
+        width: 0px;
+        height: 70vh;
+    }
+    .form-1{
+        width: 425px;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #dbdbdb;
+        
+    }
+    .details{
+        width: 380px;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+    .sm-btn{
+        height: 52px;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+        background-color:  rgba(206, 166, 58, 0.877);
+        font-size: 13px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+
+/* @media (min-width: 768px){
+
+
+    .address, .number, .email{
+        width: 250px;
+    }
+
+    .address h4,.number h4, .email h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    .address p,.number p, .email p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+
+} */
