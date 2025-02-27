@@ -509,7 +509,7 @@
   
  
  .aboutme{
-    height: 80vh;
+    height: 130vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -522,7 +522,7 @@
 }
 .abm{
     width: 400px;
-    height: 70vh;
+    height: 120vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;

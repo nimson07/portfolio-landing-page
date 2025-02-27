@@ -665,6 +665,11 @@ html, body {
 .emp{
     width: 30vw;
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 .goal{
     width: 50vw;
@@ -716,6 +721,23 @@ html, body {
     background-attachment: scroll;
     
 }
+.profile-container {
+    width: 170px; 
+    height: 170px; 
+    overflow: hidden;
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid #ccc;  
+}
+
+.profile{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
 
 
 
