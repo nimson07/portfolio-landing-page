@@ -1,3 +1,26 @@
+@media (max-width: 768px){
+
+
+    .address, .number, .email{
+        width: 250px;
+    }
+
+    .address h4,.number h4, .email h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    .address p,.number p, .email p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+
+}
+
+
+
 @media (max-width:425px) {
      
     .con{
@@ -87,23 +110,3 @@
 
 }
 
-/* @media (min-width: 768px){
-
-
-    .address, .number, .email{
-        width: 250px;
-    }
-
-    .address h4,.number h4, .email h4{
-        font-size: 20px;
-        font-weight: 700;
-        color: white;
-    }
-    .address p,.number p, .email p{
-        font-size: 15px;
-        font-weight: 300;
-    }
-
-
-
-} */
