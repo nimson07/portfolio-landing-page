@@ -97,8 +97,8 @@ html, body {
     from, to {
         border-color: transparent;
     }
-    50% {
-        border-color: #ffffff;
+    20% {
+        border-color: #ffffff00;
     }
 }
 
@@ -107,7 +107,7 @@ html, body {
     white-space: nowrap;
     overflow: hidden; 
     border-right: 3px solid #333; 
-    animation: typing 4s steps(12) forwards, blink-caret 0.7s step-end infinite; 
+    animation: typing 4s steps(20) forwards, blink-caret 0.7s step-end infinite; 
 }
 .sec-bg p{
     font-size: 25px;
@@ -317,7 +317,6 @@ html, body {
     transition: opacity 0.5s ease;
 }
 .wrk-1:hover .eme-des {
-    
     opacity: 1;
 
 }
@@ -327,6 +326,9 @@ html, body {
     text-decoration: none;
     background-color: transparent;
     
+}
+.h2a:hover{
+    transform: translateY(-20px); /* Lift up by 10 pixels on hover */
 }
 
 
@@ -657,7 +659,15 @@ html, body {
 }
 .abm{
     width: 85vw;
-    height: 55vh;
+    height: 50vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.abm-1{
+    width: 85vw;
+    height: 50vh;
     display:flex ;
     justify-content: center;
     align-items: center;
@@ -737,6 +747,28 @@ html, body {
     height: auto; 
     object-fit: cover;
 }
+
+.counter {
+    font-size: 4.5rem;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    color: #000000; /* Tailwind gray-700 */
+    background-color: rgba(212, 159, 11, 0.877);
+    padding-right: 4px;
+}
+
+.count-num{
+    font-size: 5vw;
+    font-family: "Poppins", serif;
+}
+.count-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 20vh;
+}
+
 
 
 /* @media (max-width: 768px){
@@ -1587,6 +1619,49 @@ html, body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.counter {
+    font-size: 2rem;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    color: #000000; /* Tailwind gray-700 */
+    background-color: rgba(212, 159, 11, 0.877);
+    padding-right: 4px;
+}
+
+.count-num{
+    font-size: 5vw;
+    font-family: "Poppins", serif;
+}
+.count-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 5vh;
+}
+
+.abm-1{
+    width: 350px;
+    height: 10vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-1{
+    height: 20vh;
+    width: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
 
 }
 

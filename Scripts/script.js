@@ -16,7 +16,7 @@ function resetTypingAnimation() {
     typingText.style.animation = ''; // Restart animation
 }
 
-setInterval(resetTypingAnimation, 6500); // Reset every 6 seconds (4s typing + 2s delay)
+setInterval(resetTypingAnimation, 5000); // Reset every 6 seconds (4s typing + 2s delay)
 
 
 let currentIndex = 0;
@@ -44,3 +44,45 @@ let currentIndex = 0;
             currentIndex = (currentIndex + 1) % slides.length;
             showSlide(currentIndex);
         }, 5000)
+
+
+         // Target number to count to
+         const targetNumber = 10; // Desired number
+         const duration = 4000; // Duration of the counter effect in milliseconds
+         const counterElement = document.getElementById('counter');
+         let hasCounted = false; // Flag to check if counting has started
+ 
+         function animateCounter(start, end, duration) {
+             const incrementTime = duration / end; // Time per increment
+             let currentCount = start;
+             const timer = setInterval(() => {
+                 currentCount++;
+                 counterElement.innerText = currentCount;
+ 
+                 if (currentCount >= end) {
+                     clearInterval(timer);
+                 }
+             }, incrementTime);
+         }
+ 
+         function startCounting(entries) {
+             entries.forEach(entry => {
+                 if (entry.isIntersecting && !hasCounted) {
+                     hasCounted = true; // Prevents multiple counts
+                     animateCounter(0, targetNumber, duration);
+                 }
+             });
+         }
+ 
+         // Options for the Intersection Observer
+         const options = {
+             root: null, // Use the viewport as the root
+             rootMargin: '0px', // No margin around the root
+             threshold: 0.5 // Trigger when 50% of the target is visible
+         };
+ 
+         // Create an Intersection Observer
+         const observer = new IntersectionObserver(startCounting, options);
+ 
+         // Observe the counter section
+         observer.observe(document.getElementById('counterSection'));
