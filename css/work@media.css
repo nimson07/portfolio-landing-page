@@ -1,4 +1,4 @@
-@media (max-width: 425px ){
+/* @media (max-width: 425px ){
 
     .con{
         height: 90vh;
@@ -43,7 +43,7 @@
         background-size: cover;
         background-attachment: scroll;
         height: 60vh;
-        width: 380px;
+        width: 380vw;
     }
     .eme-dets{
         width: 350px;
@@ -194,70 +194,11 @@
         width: 68vw;
         font-family: "Lora", serif ;
     }
+   
 
-}
+} */
 
 
-/* @media (min-width:768px){
     
 
-    .first-work, .second-work{
-        flex-wrap: wrap;
-        height: 290vh;
-    }
-
-    .eme-work, .res-work, .eng-work, .gra-work{
-       width: 600px;
-       gap: 25px;
-       height: 140vh;
-       justify-content: center;
-       align-items: center;
-    }
-
-    .eme-img, .res-img, .eng-img, .gra-img{
-       width: 600px;
-       height: 60vh;
-    }
-
-    .eme-d, .res-d, .eng-d, .gra-d{
-          font-size: 15px;
-    }
-
-    .ed{
-       font-size: 40px; 
-    }
-    .eme-det, .res-det, .eng-det, .gra-det{
-        font-size: 18px;
-    }
-    .eme-dets, .res-dets, .eng-dets, .gra-dets{
-        width: 590px;
-        justify-content: center;
-        align-items: center;
-    }
-    .res-dets span{
-        width: 270px;
-    }
-    
-
-    .gra-dets span{
-        width: 260px;
-    }
-
-    .eng-dets span{
-        width: 320px;
-    }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-   } */
+   
