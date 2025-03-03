@@ -327,10 +327,6 @@ html, body {
     background-color: transparent;
     
 }
-.h2a:hover{
-    transform: translateY(-20px); /* Lift up by 10 pixels on hover */
-}
-
 
 .foot{
     height: 95vh;
